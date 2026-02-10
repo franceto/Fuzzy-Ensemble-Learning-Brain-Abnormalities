@@ -1,0 +1,23 @@
+# venv
+.venv/
+
+# dataset
+data/
+datasets/
+
+# outputs (logs, cache, weights)
+outputs/
+
+# python cache
+__pycache__/
+*.py[cod]
+
+# jupyter
+.ipynb_checkpoints/
+
+# secrets
+*.env
+roboflow.key
+kaggle.json
+**/roboflow.key
+**/*.env
